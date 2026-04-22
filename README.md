@@ -66,20 +66,29 @@ shahnawaz-profile/
 └── tsconfig.json
 ```
 
-## Quick Start (once built)
+## Quick Start — Run it locally
 
 ```bash
-# 1. Install dependencies
+# 1. from your home terminal
+cd ~/Documents/shahnawaz-profile
+
+# 2. install dependencies (first run takes ~1 minute)
 npm install
 
-# 2. Set your Groq API key (free at https://console.groq.com)
+# 3. get a free Groq API key at https://console.groq.com/keys
+#    then create your local env file:
 cp .env.local.example .env.local
-# then edit .env.local and paste your key
+#    edit .env.local and paste your key after GROQ_API_KEY=
 
-# 3. Run the dev server
+# 4. start the dev server
 npm run dev
-# http://localhost:3000
 ```
+
+Open **http://localhost:3000** in your browser.
+
+The portfolio renders immediately. The chatbot works as soon as `GROQ_API_KEY` is set in `.env.local` — click the bottom-right chat bubble or the "Ask me anything" button.
+
+> **Node version:** this project requires Node 20 or newer. Check with `node -v`. If needed, install from <https://nodejs.org> or `brew install node@20`.
 
 ## Deployment
 

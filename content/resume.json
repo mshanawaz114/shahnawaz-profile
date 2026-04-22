@@ -1,0 +1,331 @@
+{
+  "name": "Shahnawaz Mohammed",
+  "title": "Senior Software Engineer · Technical Architect · Drupal Specialist",
+  "tagline": "14+ years architecting and shipping enterprise-scale web platforms — from Drupal 6 to Drupal 11, PHP to .NET, mainframe to AWS.",
+  "location": "United States (open to remote)",
+  "email": "mshanawaztech@gmail.com",
+  "phone": "929-261-6383",
+  "social": {
+    "github": "https://github.com/mshanawaz114",
+    "linkedin": "https://www.linkedin.com/in/shahnawaz-mohammed/",
+    "drupal": "https://www.drupal.org/u/mshanawaz114"
+  },
+  "summary": [
+    "Senior Software Engineer, Technical Architect, and Drupal Specialist with 14+ years of hands-on experience designing, developing, architecting, and supporting enterprise-scale content management and web application platforms.",
+    "Deep Drupal expertise across Drupal 6 through 11 — custom module development, theming, site building, migrations, performance tuning, security hardening, and production support.",
+    "Proven full-stack engineer: PHP 5.x–8.4 with Symfony and Laravel on the backend; React, Angular 9–18, Node.js, TypeScript, and Next.js on the frontend; decoupled and headless Drupal architectures with REST and GraphQL.",
+    "Extensive Identity, Security & API experience — SSO/IAM with Okta, SimpleSAMLphp, OAuth 2.0, OpenID Connect, SAML 2.0; API development and testing with Postman and BrowserStack.",
+    "Cloud and DevOps on Microsoft Azure (certified), AWS, Acquia Cloud, and Pantheon — with Docker, Kubernetes, Jenkins, Azure DevOps, GitLab, and GitHub Actions.",
+    "Served as Software Engineer, Senior Developer, Technical Lead, Solution Architect, Release Manager, and Project Manager."
+  ],
+  "skills": {
+    "Languages": ["PHP 5.x–8.4", "C#", "Java", "Python", "JavaScript (ES2023+)", "TypeScript", "SQL", "PL/SQL", "COBOL", "JCL", "GraphQL", "Bash/Shell"],
+    "CMS": ["Drupal 6–11 (Expert)", "WordPress", "Adobe Experience Manager (AEM)", "Sitecore", "UNA CMS", "Headless / Decoupled CMS"],
+    "Backend": ["Symfony (Drupal Core)", "Laravel", ".NET Core / ASP.NET", "Spring Boot", "Spring Microservices", "Hibernate", "Next.js"],
+    "Frontend": ["React (Hooks, Context, Redux)", "Angular 9–18", "Next.js", "Micro-frontend Architecture", "Material UI", "Bootstrap 5+", "Tailwind CSS"],
+    "API & Integration": ["REST", "JSON-API", "GraphQL", "Webhooks", "Event-driven integrations", "API Gateway patterns", "Apigee"],
+    "Identity & Security": ["Okta", "SimpleSAMLphp", "OAuth 2.0", "OpenID Connect (OIDC)", "SAML 2.0", "Miniorange", "Role-Based Access Control"],
+    "Cloud": ["Microsoft Azure (Certified)", "AWS (EC2, S3, SQS, Lambda, RDS, ECS)", "Acquia Cloud", "Pantheon", "Hybrid Cloud"],
+    "Containers & Runtime": ["Docker", "Kubernetes", "Lando", "DDEV", "Docksal", "WSL", "Linux Containers", "Solaris", "Unix"],
+    "CI/CD & Release": ["Git (Advanced branching)", "GitLab CI", "Azure DevOps", "Jenkins", "GitHub Actions", "Acquia BLT", "CAB Process", "Blue-Green & Rollback"],
+    "Performance & Caching": ["Redis", "Memcached", "Varnish", "Akamai CDN", "Edge caching"],
+    "Databases": ["MySQL", "PostgreSQL", "SQL Server", "Oracle", "DB2", "MongoDB", "DynamoDB", "Cosmos DB", "Redshift"],
+    "ERP": ["SAP", "SAGE ERP", "Pointman ERP", "Made2Manage (Aptean) ERP"],
+    "Reporting & BI": ["Power BI", "Tableau", "SAP BusinessObjects", "Crystal Reports", "QlikView", "Qlik Sense", "Minitab"],
+    "Testing & QA": ["Postman", "BrowserStack", "JUnit", "Jest", "Mocha", "Chai", "Mockito", "Behat", "Axe", "WAVE", "Lighthouse"],
+    "Mainframe": ["IBM Mainframe", "COBOL", "JCL", "DB2", "Batch Processing"],
+    "Marketing & Analytics": ["Google Analytics 4", "Google Tag Manager", "Cookiebot", "Salesforce", "Marketo", "SURL"],
+    "AI-Augmented Development": ["ChatGPT (Expert)", "Prompt Engineering", "AI-assisted debugging & documentation"],
+    "Collaboration": ["JIRA", "Rally", "Confluence", "GitHub", "Bitbucket", "ServiceNow"]
+  },
+  "experience": [
+    {
+      "company": "Federal Center for Medicaid & Medicare (EPPE)",
+      "location": "Baltimore, MD",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2024-08",
+      "end": "present",
+      "highlights": [
+        "Leads hands-on development on the Enterprise Privacy Policy Engine (EPPE) — a complex, custom, high-traffic Drupal 10 portal supporting Medicaid operations.",
+        "Implemented RBAC workflows, media-dispositioning, custom dashboards, dialog forms, and interactive workflow screens.",
+        "Redesigned EPPE global features: PDF generation, advanced search, filtering, cron-based automated DUA-policy notifications.",
+        "Oversees AWS-based deployments with Kubernetes containerization; Docker/DDEV local dev; Jenkins pipelines; tag-based releases.",
+        "Coordinates zero-downtime UAT and production deployments; mentors juniors and leads cross-functional teams on Drupal and architectural best practices."
+      ],
+      "stack": ["Drupal 10", "PHP 8.4", "Docker", "DDEV", "Kubernetes", "Jenkins", "AWS (EC2, S3, RDS, Lambda)", "Git", "HTML5", "CSS3", "JavaScript", "REST APIs", "Jira"]
+    },
+    {
+      "company": "State of New York — Department of Corrections (NYDOCCS)",
+      "location": "Albany, NY",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2023-08",
+      "end": "2024-07",
+      "highlights": [
+        "Directed migration of legacy portal components to Drupal 9 on Acquia Cloud.",
+        "Instituted unit, functional, and regression testing frameworks for production-ready releases.",
+        "Enforced RBAC, authorization workflows, and state/federal compliance.",
+        "Owned end-to-end CI/CD on Acquia Cloud and Git workflows across DEV, QA, UAT, PROD.",
+        "Mentored juniors on Drupal best practices, multi-site management, and modular component development."
+      ],
+      "stack": ["Drupal 9", "PHP 7–8", "Acquia Cloud", "Acquia BLT", "REST APIs", "Multi-site", "Git", "Jira", "CI/CD"]
+    },
+    {
+      "company": "State of California — County of San Bernardino (ITSD)",
+      "location": "San Bernardino, CA",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2022-08",
+      "end": "2023-07",
+      "highlights": [
+        "Led migration of multiple legacy PHP portals (Register-to-Vote, eDocs, Worker Payroll, Affidavit, User Management, ROV Intranet) from NGINX to IIS.",
+        "Reverse-engineered legacy PHP into .NET Core 6 and upgraded to latest .NET Core LTS.",
+        "Modularized monoliths into standalone services or Global API-first microservices.",
+        "Set up Azure Dev/Test/UAT/Prod environments from scratch with Azure Pipelines and CI/CD automation.",
+        "Led full Azure DevOps integration — pipeline creation, build/release config, automated testing, deployment tracking."
+      ],
+      "stack": [".NET Core 6 & LTS", "C#", "ASP.NET MVC", "Angular 7+", "PHP 5–8", "Drupal 7/8/9", "WordPress", "IIS", "NGINX", "SQL Server", "MySQL", "Azure DevOps", "Git"]
+    },
+    {
+      "company": "State of New York — Department of Transportation (NYDOT)",
+      "location": "Albany, NY",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2021-06",
+      "end": "2022-07",
+      "highlights": [
+        "Led migration of the Governor's legacy Drupal 7 portal (2009 build) to Drupal 9 on Acquia Cloud.",
+        "Major contributor to the Universal Navigation (UNAV) project — ~8,000 subdomains across NY state portals including DOT, DMV, and CSEA.",
+        "Implemented multi-language translation across legacy and new systems for accessibility and localization.",
+        "Managed DEV → QA → UAT → PROD promotion, rollback planning, and post-deployment validation.",
+        "Mentored a team of 12 developers on Drupal 9, multi-site, and Acquia workflows; ensured WCAG 2.1 compliance."
+      ],
+      "stack": ["Drupal 7 & 9", "PHP 7–8", "Acquia Cloud", "Acquia BLT", "ACSF", "Storybook", "React", "REST APIs", "MySQL", "Git", "Jira", "WCAG 2.1"]
+    },
+    {
+      "company": "Moody's Financial",
+      "location": "Manhattan, NY",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2020-06",
+      "end": "2021-05",
+      "highlights": [
+        "Architected enterprise Drupal 9 & 10 applications with custom modules, themes, admin views, RESTful services, and third-party integrations.",
+        "Containerized Drupal 9 & 10 with Docker; executed migrations 7 → 8 → 9 → 10 on Acquia Cloud.",
+        "Acted as Release Manager — end-to-end release cycles across DEV, QA, UAT, PROD, CAB approvals, rollback.",
+        "Designed partially decoupled Drupal + React SPAs; SSR dashboards for CFO stakeholders using Node.js, TypeScript, and GraphQL.",
+        "Led performance work that reduced page load time ~25% via DB partitioning and caching.",
+        "Served as Accessibility SME ensuring ADA and WCAG 2.1 compliance across sites, PDFs, Word, and PowerPoint."
+      ],
+      "stack": ["Drupal 9/10", "PHP 7–8", "React", "TypeScript", "Redux", "Angular", "Node.js", "GraphQL", "Docker", "AWS", "Acquia", "Okta", "Spring Boot"]
+    },
+    {
+      "company": "CALTRANS (State of California Dept of Transportation)",
+      "location": "California",
+      "role": "Lead Web Developer / Enterprise Architect",
+      "start": "2019-11",
+      "end": "2020-06",
+      "highlights": [
+        "Hands-on lead across Drupal 7/8/9 and WordPress for public-facing and internal government portals.",
+        "Owned full SDLC — requirements, architecture, development, testing, deployment, production support.",
+        "Created AS-IS and TO-BE technical documentation, architecture diagrams, ERDs, business workflows, and gap analyses.",
+        "Performed ADA/WCAG 2.0 & 2.1 remediation; Sev-1 production support for mission-critical government portals.",
+        "Built React and Angular UI components integrated with PHP/Drupal backends using REST and GraphQL."
+      ],
+      "stack": ["PHP 7/8", "Drupal 7/8/9", "WordPress", "MySQL", "React", "Angular", "GraphQL", "Spring Boot", "Jenkins", "AWS", "Pantheon", "Acquia"]
+    },
+    {
+      "company": "Vyaire Medical",
+      "location": "Palm Springs, CA",
+      "role": "Project Lead / Web Applications Support Engineer",
+      "start": "2018-11",
+      "end": "2019-11",
+      "highlights": [
+        "Supported Drupal 6/7/8/9, WordPress, AEM, and Sitecore portals with decoupled/headless React and Angular frontends.",
+        "Owned P1–P4 incident management and SLA communications; vendor coordination across AWS, Azure, Aptean ERP.",
+        "Delivered ERP integrations (Pointman, Made2Manage, SAP, SAGE) with Crystal Reports, Power BI, and Tableau reporting.",
+        "Championed ADA/WCAG compliance; audited and remediated PDFs, forms, and multimedia."
+      ],
+      "stack": ["Drupal 6–9", "WordPress", "AEM", "Sitecore", "PHP 5–8", "Angular 7–11", "React", "Node.js", "Docker", "Jenkins", "Salesforce", "Marketo"]
+    },
+    {
+      "company": "Fluke Corporation",
+      "location": "Everett, WA",
+      "role": "Project Lead / Web Architect",
+      "start": "2018-06",
+      "end": "2018-11",
+      "highlights": [
+        "Led Drupal 6 → 7 → 8 upgrades, content migration, module/theme development, security patching.",
+        "Built custom responsive React frontends (Forms, Events, Router, Animations, Flux).",
+        "Managed a 35-member onsite/offshore cross-functional team including Salesforce and Marketo specialists.",
+        "Championed ADA/WCAG 2.1; delivered accessibility training to 50+ developers and content editors — 100% compliance for new content."
+      ],
+      "stack": ["Drupal 6/7/8", "React", "PHP 5–7", "Marketo", "Salesforce", "AWS", "Azure", "Pantheon", "Jenkins"]
+    },
+    {
+      "company": "State of New York — Department of Transportation (NYDOT)",
+      "location": "Albany, NY",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2017-06",
+      "end": "2018-06",
+      "highlights": [
+        "Led Drupal 7 → 9 migration of the Governor's legacy portal (original 2009 build) on Acquia Cloud.",
+        "Core contributor to UNAV — ~8,000 subdomains across DOT, DMV, CSEA.",
+        "Delivered multi-language translation, cross-browser UI/UX modernization, and accessibility compliance."
+      ],
+      "stack": ["Drupal 7 & 9", "PHP 7–8", "Acquia Cloud", "Storybook", "React", "REST APIs", "Git", "WCAG 2.1"]
+    },
+    {
+      "company": "Nutrien Healthcare",
+      "location": "Loveland, CO",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2017-01",
+      "end": "2017-06",
+      "highlights": [
+        "Led development of SHIPERP ERP (supply chain, inventory, logistics).",
+        "Upgraded PHP 5.3 → 7.4; deployed AWS Lambda functions in Python for automated ERP reporting.",
+        "DB optimization and error resolution across MySQL and SQL Server."
+      ],
+      "stack": ["PHP 5.3–7.4", "Laravel", "WAMP", "Azure", "AWS Lambda", "Python", "MySQL", "SQL Server", "Git"]
+    },
+    {
+      "company": "Humana Healthcare",
+      "location": "Louisville, KY",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2016-07",
+      "end": "2017-01",
+      "highlights": [
+        "Tech lead on an API-driven Drupal project integrated with Apigee.",
+        "Led Drupal 8 → 9 migration with re-architecture of a portal originally from Magento CMS.",
+        "Built maker-checker workflows, scheduled batch operations, automated notifications, and failover mechanisms."
+      ],
+      "stack": ["Drupal 8/9", "PHP 8.x", "Apigee", "Magento CMS", "MySQL", "Docker", "Azure DevOps", "Jenkins", "Git"]
+    },
+    {
+      "company": "Bankers Healthcare Group (BHG)",
+      "location": "Davies, FL",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2016-01",
+      "end": "2016-07",
+      "highlights": [
+        "Modernized legacy portals across Drupal 8, WordPress, Laravel 5, Symfony 5, and .NET Core.",
+        "Built Azure + GitHub release pipelines across DEV, TEST, UAT, PROD.",
+        "Component-based AEM development with unit testing; Marketo/Salesforce CRM + SURL + Tableau dashboards."
+      ],
+      "stack": ["Drupal 8/9", "WordPress", "PHP 7–8", "Laravel 5", "Symfony 5", ".NET Core", "AEM", "MongoDB", "Java", "Azure", "GitHub", "Tableau"]
+    },
+    {
+      "company": "State of California — Judicial Council of California (JCIT)",
+      "location": "San Francisco, CA",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2016-01",
+      "end": "2016-07",
+      "highlights": [
+        "Modernized a Drupal multisite on Pantheon serving all 58 California courts as a single global platform.",
+        "Executed Drupal 8 → 9 migration, contributed module remediation, custom module refactoring.",
+        "Built a frontend component system in Storybook — design-system-driven development integrated into Drupal themes.",
+        "Ensured Section 508 and WCAG compliance across multisite deployments."
+      ],
+      "stack": ["Drupal 8/9", "PHP 7–8", "Storybook", "Twig", "JavaScript (ES6)", "Pantheon", "Composer", "Drush", "Azure Pipelines", "Section 508"]
+    },
+    {
+      "company": "Federal Center for Medicaid & Medicare (Medicaid.gov & InsureKidsNow.gov)",
+      "location": "Baltimore, MD",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2015-09",
+      "end": "2016-01",
+      "highlights": [
+        "Universal Lead overseeing four major projects simultaneously: Medicaid.gov, InsureKidsNow.gov, Scorecard, Modernization.",
+        "Solely responsible for release management across DEV, UAT, PROD — Acquia Cloud deployments with auto-scaling for 50+ state coverage.",
+        "Led SSO enhancements using Miniorange + SimpleSAMLphp.",
+        "Drove modernization — Google Search, site redesigns, visitor segmentation, Mega Menu, UI/UX improvements."
+      ],
+      "stack": ["Drupal 9/10", "PHP 7–8", "React", "Angular", "Storybook", "Acquia Cloud", "Azure", "AWS", "Miniorange SSO", "SimpleSAMLphp", "Docker", "Drutiny"]
+    },
+    {
+      "company": "State of Maryland — City of Baltimore (BCIT)",
+      "location": "Baltimore, MD",
+      "role": "Tech Lead Web Developer / Systems Engineering",
+      "start": "2015-05",
+      "end": "2015-09",
+      "highlights": [
+        "Led end-to-end redesign of the BCIT public-facing portal — migrated from legacy .NET Sitecore CMS to Drupal 8.",
+        "Implemented Digital Asset Management enhancements and dynamic scorecard functionality.",
+        "Integrated SSO using Miniorange SimpleSAMLphp."
+      ],
+      "stack": ["Drupal 8", "PHP 7–8", "JavaScript", "jQuery", "REST APIs", "SimpleSAMLphp", "MySQL", "Oracle", "Git", "Azure DevOps"]
+    },
+    {
+      "company": "Thomas Pharmaceuticals",
+      "location": "Manhattan, NY",
+      "role": "Project Lead / Project Manager",
+      "start": "2015-01",
+      "end": "2015-05",
+      "highlights": [
+        "Planned and delivered enterprise Drupal projects (Drupal 6/7/8) from inception to deployment.",
+        "Mobile-responsive UI with Bootstrap, Adobe DTX, AEM, Duda Mobile.",
+        "Oversaw CRM + ERP integration (Aptean ERP, Salesforce) inside Drupal applications.",
+        "Implemented microservices and containerization with Node.js, Docker, Kubernetes."
+      ],
+      "stack": ["Drupal 6/7/8", "PHP 5–7", "Node.js", "Docker", "Kubernetes", "Oracle (PL/SQL)", "MySQL", "Bootstrap 3", "Salesforce", "Aptean ERP"]
+    },
+    {
+      "company": "IBM Invesco",
+      "location": "Hyderabad, India",
+      "role": "Software Engineer",
+      "start": "2014-01",
+      "end": "2014-12",
+      "highlights": [
+        "End-to-end web applications in Ruby on Rails with HTML5, CSS3, jQuery, AngularJS, Blueprint CSS.",
+        "Migrated legacy C# applications to Python for maintainability.",
+        "Requirements gathering, reusable components, unit/integration/acceptance testing."
+      ],
+      "stack": ["Ruby on Rails", "Python", "C#", "HTML5", "CSS3", "jQuery", "AngularJS"]
+    },
+    {
+      "company": "Hyderabad Indoors (Apex Infratech)",
+      "location": "Hyderabad, India",
+      "role": "Jr Web Developer",
+      "start": "2012-01",
+      "end": "2013-12",
+      "highlights": [
+        "Built Drupal 6/7 sites with Drush caching and Nginx response optimization.",
+        "Replaced legacy procedural code with object-oriented PHP for maintainability."
+      ],
+      "stack": ["Drupal 6/7", "PHP 5/7", "Ruby on Rails", "Python 2", "MySQL", "Oracle", "JavaScript", "jQuery", "Nginx", "Drush"]
+    }
+  ],
+  "education": [
+    {
+      "school": "Westcliff University",
+      "location": "Irvine, CA",
+      "degree": "Doctorate — Business Administration Management and Entrepreneurship",
+      "start": "2020-09",
+      "end": "2021-10",
+      "notes": "Completed four semesters with a GPA of 3.8 before voluntarily discontinuing the program. Completed Doctoral Coursework (27 Credit Hours)."
+    },
+    {
+      "school": "Harrisburg University",
+      "location": "Harrisburg, PA",
+      "degree": "Masters — Information System Engineering and Management",
+      "end": "2017",
+      "notes": "Graduated with High Honours — GPA 3.86 / 4.00."
+    },
+    {
+      "school": "Pulla Reddy Engineering College",
+      "location": "Hyderabad, India",
+      "degree": "Bachelor of Science — Civil Engineering",
+      "start": "2008",
+      "end": "2012",
+      "notes": "Graduated with Highest Distinction. Recipient of Merit Medal for Academic Excellence."
+    }
+  ],
+  "certifications": [
+    { "name": "Microsoft Certified: Azure Administrator Associate", "id": "AZ-104", "issuer": "Microsoft" },
+    { "name": "Microsoft Certified: Azure Developer Associate", "id": "AZ-204", "issuer": "Microsoft" },
+    { "name": "Microsoft Certified: DevOps Engineer Expert", "id": "AZ-400", "issuer": "Microsoft" },
+    { "name": "Microsoft Certified: Azure Solutions Architect Expert", "id": "AZ-305", "issuer": "Microsoft" },
+    { "name": "PMP — Project Management Professional", "id": "PMP", "issuer": "PMI" },
+    { "name": "Acquia Certified Developer — Drupal 11", "issuer": "Acquia" }
+  ],
+  "interests": [
+    "Volunteer work supporting community initiatives and non-profit organizations",
+    "Culinary arts — experimenting with recipes and exploring new cuisines"
+  ]
+}

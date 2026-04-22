@@ -1,0 +1,97 @@
+[
+  {
+    "slug": "eppe-medicaid",
+    "name": "Enterprise Privacy Policy Engine (EPPE)",
+    "client": "Federal Center for Medicaid & Medicare",
+    "period": "2024 – Present",
+    "headline": "High-traffic Drupal 10 portal managing Medicaid privacy policy workflows for the federal government.",
+    "problem": "The existing EPPE portal needed a secure, compliant, custom workflow engine for Data Use Agreement (DUA) policies with role-based approvals, media-dispositioning, and automated notifications — while running on Drupal 10 and PHP 8.4 with zero-downtime deployments.",
+    "impact": [
+      "Redesigned global features — PDF generation, advanced search, filtering, and cron-based automated DUA-policy notifications at 15/30/45/60-day intervals.",
+      "Shipped role-based workflow enhancements supporting complex approval hierarchies and fine-grained permissions.",
+      "Delivered AWS + Kubernetes deployments with Docker/DDEV local dev and Jenkins pipelines, achieving zero-downtime release cycles."
+    ],
+    "stack": ["Drupal 10", "PHP 8.4", "Docker", "DDEV", "Kubernetes", "Jenkins", "AWS (EC2, S3, RDS, Lambda)", "REST APIs"],
+    "tags": ["Government", "Drupal", "Cloud", "Security"]
+  },
+  {
+    "slug": "unav-ny-state",
+    "name": "Universal Navigation (UNAV) — NY State Portals",
+    "client": "State of New York — NYDOT",
+    "period": "2017 – 2022",
+    "headline": "Standardized header, footer, and navigation across ~8,000 subdomains of New York State portals (DOT, DMV, CSEA, and more).",
+    "problem": "New York's government web ecosystem spanned thousands of subdomains with inconsistent navigation, branding, and accessibility. A single reusable UNAV component system was needed.",
+    "impact": [
+      "Core contributor to a design system rolled out across ~8,000 subdomains.",
+      "Built Storybook-driven reusable React components integrated into Drupal 9 themes on Acquia Cloud.",
+      "Delivered multi-language translation + WCAG 2.1 compliance across DOT, DMV, and CSEA portals.",
+      "Mentored 12 developers on Drupal 9 multi-site and Acquia deployment workflows."
+    ],
+    "stack": ["Drupal 7 & 9", "Acquia Cloud", "Acquia BLT", "ACSF", "Storybook", "React", "REST APIs", "MySQL"],
+    "tags": ["Design System", "Drupal", "Accessibility", "Government"]
+  },
+  {
+    "slug": "caltrans-modernization",
+    "name": "CALTRANS — PHP & Drupal Modernization",
+    "client": "State of California Department of Transportation",
+    "period": "2019 – 2020",
+    "headline": "Full-lifecycle modernization of large-scale PHP and Drupal portals for the California DOT.",
+    "problem": "CALTRANS was running a mix of aging PHP, Drupal 7/8, and WordPress portals that needed architectural modernization, ADA/WCAG remediation, and a production-support capability for Sev-1 incidents.",
+    "impact": [
+      "Owned full SDLC — requirements, architecture, development, testing, deployment, and 24/7 production support.",
+      "Delivered ADA/WCAG 2.0 & 2.1 remediation across PHP, Drupal, and WordPress assets.",
+      "Authored AS-IS / TO-BE technical docs, architecture diagrams, ERDs, and gap analyses.",
+      "Implemented SVN + Jenkins CI/CD across DEV, QA, UAT, and PROD."
+    ],
+    "stack": ["PHP 7/8", "Drupal 7/8/9", "WordPress", "React", "Angular", "GraphQL", "Jenkins", "Pantheon", "Acquia"],
+    "tags": ["Government", "Modernization", "Accessibility"]
+  },
+  {
+    "slug": "moodys-decoupled-drupal",
+    "name": "Decoupled Drupal + React SPAs for CFO Dashboards",
+    "client": "Moody's Financial",
+    "period": "2020 – 2021",
+    "headline": "Partially decoupled Drupal backend with React/TypeScript SPAs and SSR dashboards for CFO-level stakeholders.",
+    "problem": "Moody's needed performant, scalable financial summary dashboards integrated with a Drupal backend, while maintaining CMS-driven content publishing and accessibility standards across a large portfolio of internal apps.",
+    "impact": [
+      "Delivered React/TypeScript/Redux SPAs consuming Drupal as a headless backend.",
+      "Built SSR dashboards with Node.js + GraphQL for CFO-level stakeholders.",
+      "Led performance work that reduced page load by ~25% via DB partitioning and caching.",
+      "Served as Accessibility SME — achieved ADA / WCAG 2.1 compliance across web, PDFs, Word, and PowerPoint."
+    ],
+    "stack": ["Drupal 9/10", "React", "TypeScript", "Redux", "Node.js", "GraphQL", "AWS", "Docker", "Okta"],
+    "tags": ["Headless CMS", "Frontend", "Performance"]
+  },
+  {
+    "slug": "jcit-storybook-multisite",
+    "name": "JCIT — Drupal Multisite Serving 58 California Courts",
+    "client": "Judicial Council of California",
+    "period": "2016",
+    "headline": "A single Drupal multisite on Pantheon serving all 58 California courts — powered by a new Storybook design system.",
+    "problem": "The Judicial Council needed to consolidate 58 independent court websites into a single global platform with consistent UX, reusable components, and Drupal 8 → 9 migration.",
+    "impact": [
+      "Built a brand-new component system in Storybook aligned with UX/UI designs.",
+      "Designed and integrated reusable UI components (headers, footers, nav menus, sidebars) into Drupal themes.",
+      "Delivered Drupal 8 → 9 migrations — core upgrades, contributed module remediation, custom module refactoring.",
+      "Ensured Section 508 + WCAG compliance across all 58 court deployments."
+    ],
+    "stack": ["Drupal 8/9", "PHP 7–8", "Storybook", "Twig", "Pantheon", "JavaScript (ES6)", "Azure Pipelines"],
+    "tags": ["Design System", "Drupal", "Government", "Accessibility"]
+  },
+  {
+    "slug": "medicaid-gov-release-mgmt",
+    "name": "Medicaid.gov & InsureKidsNow.gov — Universal Lead",
+    "client": "Federal Center for Medicaid & Medicare",
+    "period": "2015 – 2016",
+    "headline": "Universal Lead across Medicaid.gov, InsureKidsNow.gov, Scorecard, and Modernization — release owner for sites serving 50+ states.",
+    "problem": "Four flagship federal-facing sites needed coordinated release management, SSO hardening, modernization, and high-traffic performance tuning under one Universal Lead.",
+    "impact": [
+      "Solely owned release management across DEV, UAT, PROD — Acquia Cloud deployments, auto-scaling, and alert management.",
+      "Led SSO enhancements using Miniorange and SimpleSAMLphp.",
+      "Drove modernization — Google Search, site redesigns, visitor segmentation, Mega Menu, Blog Posts, UI/UX.",
+      "Implemented Drutiny-based audits for security, accessibility, and Drupal best practices."
+    ],
+    "stack": ["Drupal 9/10", "React", "Angular", "Storybook", "Acquia Cloud", "Azure", "AWS (EC2, S3, RDS, Lambda)", "Miniorange SSO", "SimpleSAMLphp"],
+    "tags": ["Government", "Release Management", "SSO", "High Traffic"]
+  }
+]
