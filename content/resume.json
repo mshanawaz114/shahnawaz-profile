@@ -12,8 +12,9 @@
   },
   "summary": [
     "Senior Software Engineer, Technical Architect, and Drupal Specialist with 14+ years of hands-on experience designing, developing, architecting, and supporting enterprise-scale content management and web application platforms.",
-    "Deep Drupal expertise across Drupal 6 through 11 — custom module development, theming, site building, migrations, performance tuning, security hardening, and production support.",
-    "Proven full-stack engineer: PHP 5.x–8.4 with Symfony and Laravel on the backend; React, Angular 9–18, Node.js, TypeScript, and Next.js on the frontend; decoupled and headless Drupal architectures with REST and GraphQL.",
+    "Multi-CMS practitioner across the enterprise stack — end-to-end delivery on Drupal 6–11, WordPress (custom themes and plugins for many client projects), Adobe Experience Manager (AEM), Sitecore, and UNA CMS.",
+    "Deep PHP background spanning Symfony, Laravel, Zend Framework, and standalone PHP applications — including end-to-end ownership of SHIPERP, a PHP-based ERP system, from database design through API and UI delivery.",
+    "Proven full-stack engineer: PHP 5.x–8.4 on the backend; React, Angular 9–18, Node.js, TypeScript, and Next.js on the frontend; decoupled and headless architectures with REST and GraphQL.",
     "Extensive Identity, Security & API experience — SSO/IAM with Okta, SimpleSAMLphp, OAuth 2.0, OpenID Connect, SAML 2.0; API development and testing with Postman and BrowserStack.",
     "Cloud and DevOps on Microsoft Azure (certified), AWS, Acquia Cloud, and Pantheon — with Docker, Kubernetes, Jenkins, Azure DevOps, GitLab, and GitHub Actions.",
     "Served as Software Engineer, Senior Developer, Technical Lead, Solution Architect, Release Manager, and Project Manager."
@@ -21,7 +22,8 @@
   "skills": {
     "Languages": ["PHP 5.x–8.4", "C#", "Java", "Python", "JavaScript (ES2023+)", "TypeScript", "SQL", "PL/SQL", "COBOL", "JCL", "GraphQL", "Bash/Shell"],
     "CMS": ["Drupal 6–11 (Expert)", "WordPress", "Adobe Experience Manager (AEM)", "Sitecore", "UNA CMS", "Headless / Decoupled CMS"],
-    "Backend": ["Symfony (Drupal Core)", "Laravel", ".NET Core / ASP.NET", "Spring Boot", "Spring Microservices", "Hibernate", "Next.js"],
+    "PHP Frameworks & Custom Builds": ["Laravel", "Symfony", "Zend Framework", "CodeIgniter", "CakePHP", "Slim", "Custom PHP MVC", "Standalone PHP applications", "Drupal (Symfony-based)", "WordPress (custom plugin/theme dev)", "End-to-end PHP delivery (DB → API → UI)"],
+    "Backend": [".NET Core / ASP.NET", "Spring Boot", "Spring Microservices", "Hibernate", "Node.js", "Next.js", "Express"],
     "Frontend": ["React (Hooks, Context, Redux)", "Angular 9–18", "Next.js", "Micro-frontend Architecture", "Material UI", "Bootstrap 5+", "Tailwind CSS"],
     "API & Integration": ["REST", "JSON-API", "GraphQL", "Webhooks", "Event-driven integrations", "API Gateway patterns", "Apigee"],
     "Identity & Security": ["Okta", "SimpleSAMLphp", "OAuth 2.0", "OpenID Connect (OIDC)", "SAML 2.0", "Miniorange", "Role-Based Access Control"],
@@ -30,7 +32,7 @@
     "CI/CD & Release": ["Git (Advanced branching)", "GitLab CI", "Azure DevOps", "Jenkins", "GitHub Actions", "Acquia BLT", "CAB Process", "Blue-Green & Rollback"],
     "Performance & Caching": ["Redis", "Memcached", "Varnish", "Akamai CDN", "Edge caching"],
     "Databases": ["MySQL", "PostgreSQL", "SQL Server", "Oracle", "DB2", "MongoDB", "DynamoDB", "Cosmos DB", "Redshift"],
-    "ERP": ["SAP", "SAGE ERP", "Pointman ERP", "Made2Manage (Aptean) ERP"],
+    "ERP": ["SHIPERP (PHP-based ERP)", "SAP", "SAGE ERP", "Pointman ERP", "Made2Manage (Aptean) ERP"],
     "Reporting & BI": ["Power BI", "Tableau", "SAP BusinessObjects", "Crystal Reports", "QlikView", "Qlik Sense", "Minitab"],
     "Testing & QA": ["Postman", "BrowserStack", "JUnit", "Jest", "Mocha", "Chai", "Mockito", "Behat", "Axe", "WAVE", "Lighthouse"],
     "Mainframe": ["IBM Mainframe", "COBOL", "JCL", "DB2", "Batch Processing"],
