@@ -104,6 +104,7 @@ Environment variables (set in Vercel dashboard → Project → Settings → Envi
 
 ## Documentation Index
 
+- **[DEPLOY.md](./DEPLOY.md)** — full deployment guide (Vercel free tier, GitHub Pages fallback, accessibility checklist)
 - **[INSTRUCTIONS.md](./INSTRUCTIONS.md)** — step-by-step 5-phase build guide (start here)
 - **[CLAUDE.md](./CLAUDE.md)** — conventions for Claude when editing this repo
 - **[ideas.md](./ideas.md)** — feature brainstorm, future ideas, stretch goals

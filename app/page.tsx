@@ -18,7 +18,7 @@ export default function HomePage() {
   return (
     <>
       <Nav />
-      <main id="main" className="relative">
+      <main id="main" tabIndex={-1} className="relative outline-none">
         <Hero />
         <About />
         <Skills />

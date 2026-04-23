@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { Building2 } from "lucide-react";
 import { SectionHeader } from "./SectionHeader";
 import resume from "@/content/resume.json";
 
@@ -5,7 +9,20 @@ function formatRange(start: string | undefined, end: string) {
   const fmt = (s: string) => {
     if (!s || s === "present") return "Present";
     const [y, m] = s.split("-");
-    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const months = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
     if (m) return `${months[parseInt(m, 10) - 1]} ${y}`;
     return y;
   };
@@ -13,43 +30,98 @@ function formatRange(start: string | undefined, end: string) {
   return `${fmt(start)} — ${fmt(end)}`;
 }
 
+function getYear(s: string) {
+  if (!s || s === "present") return "Now";
+  return s.split("-")[0];
+}
+
 export function Experience() {
   return (
-    <section id="experience" aria-labelledby="experience-heading" className="py-20">
+    <section
+      id="experience"
+      aria-labelledby="experience-heading"
+      className="relative py-24 sm:py-28"
+    >
+      <div
+        aria-hidden
+        className="pointer-events-none absolute right-0 top-40 h-96 w-96 rounded-full bg-grad-brand opacity-10 blur-3xl"
+      />
+
       <div className="container-prose">
         <SectionHeader
+          id="experience-heading"
           eyebrow="Experience"
-          title="Selected roles, most recent first."
-          description="Tech Lead, Enterprise Architect, and Release Manager roles across federal, state, healthcare, and financial organizations."
+          title="Engagements & roles."
+          description="Tech Lead, Enterprise Architect, and Release Manager appointments across federal, state, healthcare, and financial organizations. Listed reverse-chronologically."
         />
 
-        <ol className="relative space-y-8 border-l border-slate-200 pl-6 dark:border-slate-800">
+        <ol className="relative space-y-10 pl-10 sm:pl-16">
+          {/* gradient rail */}
+          <span
+            aria-hidden
+            className="absolute bottom-0 left-3 top-2 w-[2px] bg-gradient-to-b from-brand-500 via-accent-500 to-pink-500/40 sm:left-6"
+          />
+
           {resume.experience.map((job, i) => (
-            <li key={`${job.company}-${job.start}`} className="relative">
+            <motion.li
+              key={`${job.company}-${job.start}`}
+              initial={{ opacity: 0, x: -16 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-80px" }}
+              transition={{
+                duration: 0.55,
+                delay: Math.min(i * 0.04, 0.3),
+                ease: [0.22, 1, 0.36, 1],
+              }}
+              className="relative"
+            >
+              {/* dot */}
               <span
                 aria-hidden
-                className="absolute -left-[31px] top-1.5 flex h-4 w-4 items-center justify-center"
+                className="absolute top-3 -left-[34px] flex h-6 w-6 items-center justify-center sm:-left-[40px]"
               >
-                <span className="h-2.5 w-2.5 rounded-full bg-brand-500 ring-4 ring-white dark:ring-slate-950" />
+                <span className="absolute inset-0 animate-ping rounded-full bg-brand-500/40" />
+                <span className="relative inline-flex h-3 w-3 rounded-full bg-grad-brand bg-gradient-to-br from-brand-500 to-accent-500 ring-4 ring-white dark:ring-[#050510]" />
+              </span>
+
+              {/* Year badge */}
+              <span
+                aria-hidden
+                className="absolute -top-2 -left-[6px] hidden -translate-x-full font-display text-xs font-bold uppercase tracking-widest text-ink-400 sm:block dark:text-ink-500"
+              >
+                {getYear(job.end === "present" ? "present" : job.end)}
               </span>
 
               <article className="card">
-                <div className="flex flex-wrap items-baseline justify-between gap-2">
-                  <h3 className="font-display text-lg font-semibold">{job.company}</h3>
-                  <span className="text-xs font-medium text-slate-500 dark:text-slate-400">
+                <header className="flex flex-wrap items-baseline justify-between gap-2">
+                  <div className="flex items-center gap-2">
+                    <Building2 className="h-4 w-4 text-brand-500" aria-hidden />
+                    <h3 className="font-display text-lg font-semibold tracking-tight text-ink-900 dark:text-white">
+                      {job.company}
+                    </h3>
+                  </div>
+                  <span className="font-mono text-[11px] uppercase tracking-wider text-ink-500 dark:text-ink-400">
                     {formatRange(job.start, job.end)}
                   </span>
-                </div>
-                <p className="mt-1 text-sm text-brand-700 dark:text-brand-400">
-                  {job.role} <span className="text-slate-400">·</span>{" "}
-                  <span className="text-slate-500 dark:text-slate-400">{job.location}</span>
+                </header>
+
+                <p className="mt-1.5 text-sm">
+                  <span className="gradient-text-static font-semibold">
+                    {job.role}
+                  </span>
+                  <span className="ml-2 text-ink-500 dark:text-ink-400">
+                    · {job.location}
+                  </span>
                 </p>
 
                 {i < 6 && (
-                  <ul className="mt-4 space-y-1.5 text-sm text-slate-700 dark:text-slate-300">
+                  <ul className="mt-4 space-y-2 text-sm text-ink-700 dark:text-ink-300">
                     {job.highlights.slice(0, 4).map((h) => (
-                      <li key={h} className="flex gap-2">
-                        <span aria-hidden className="mt-2 inline-block h-1 w-1 shrink-0 rounded-full bg-brand-500" />
+                      <li key={h} className="flex gap-2.5">
+                        <span
+                          aria-hidden
+                          className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-gradient-to-br from-brand-500 to-accent-500"
+                        />
                         <span>{h}</span>
                       </li>
                     ))}
@@ -66,14 +138,20 @@ export function Experience() {
                   </div>
                 )}
               </article>
-            </li>
+            </motion.li>
           ))}
         </ol>
 
-        <p className="mt-6 text-sm text-slate-500 dark:text-slate-400">
-          For the full work history, see the{" "}
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="link-underline text-brand-600 dark:text-brand-400">
-            PDF resume
+        <p className="mt-8 pl-10 text-sm text-ink-500 sm:pl-16 dark:text-ink-400">
+          The complete work history is available in the{" "}
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link-underline gradient-text-static font-semibold"
+            aria-label="Download full résumé as PDF"
+          >
+            résumé (PDF)
           </a>
           .
         </p>
