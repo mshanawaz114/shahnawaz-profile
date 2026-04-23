@@ -100,11 +100,8 @@ function ProjectCard({
               accent,
             )}
           >
-            <ExternalLink className="h-3 w-3" />
+            <ExternalLink className="h-3 w-3" aria-hidden />
             {project.client}
-          </span>
-          <span className="font-mono text-[11px] uppercase tracking-wider text-ink-500 dark:text-ink-400">
-            {project.period}
           </span>
         </div>
 

@@ -5,36 +5,6 @@ import { Building2 } from "lucide-react";
 import { SectionHeader } from "./SectionHeader";
 import resume from "@/content/resume.json";
 
-function formatRange(start: string | undefined, end: string) {
-  const fmt = (s: string) => {
-    if (!s || s === "present") return "Present";
-    const [y, m] = s.split("-");
-    const months = [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
-    ];
-    if (m) return `${months[parseInt(m, 10) - 1]} ${y}`;
-    return y;
-  };
-  if (!start) return fmt(end);
-  return `${fmt(start)} — ${fmt(end)}`;
-}
-
-function getYear(s: string) {
-  if (!s || s === "present") return "Now";
-  return s.split("-")[0];
-}
-
 export function Experience() {
   return (
     <section
@@ -84,25 +54,12 @@ export function Experience() {
                 <span className="relative inline-flex h-3 w-3 rounded-full bg-grad-brand bg-gradient-to-br from-brand-500 to-accent-500 ring-4 ring-white dark:ring-[#050510]" />
               </span>
 
-              {/* Year badge */}
-              <span
-                aria-hidden
-                className="absolute -top-2 -left-[6px] hidden -translate-x-full font-display text-xs font-bold uppercase tracking-widest text-ink-400 sm:block dark:text-ink-500"
-              >
-                {getYear(job.end === "present" ? "present" : job.end)}
-              </span>
-
               <article className="card">
-                <header className="flex flex-wrap items-baseline justify-between gap-2">
-                  <div className="flex items-center gap-2">
-                    <Building2 className="h-4 w-4 text-brand-500" aria-hidden />
-                    <h3 className="font-display text-lg font-semibold tracking-tight text-ink-900 dark:text-white">
-                      {job.company}
-                    </h3>
-                  </div>
-                  <span className="font-mono text-[11px] uppercase tracking-wider text-ink-500 dark:text-ink-400">
-                    {formatRange(job.start, job.end)}
-                  </span>
+                <header className="flex items-baseline gap-2">
+                  <Building2 className="h-4 w-4 text-brand-500" aria-hidden />
+                  <h3 className="font-display text-lg font-semibold tracking-tight text-ink-900 dark:text-white">
+                    {job.company}
+                  </h3>
                 </header>
 
                 <p className="mt-1.5 text-sm">

@@ -7,6 +7,7 @@ import resume from "@/content/resume.json";
 
 const ICONS: Record<string, string> = {
   CMS: "▣",
+  "PHP Frameworks": "❮❯",
   Backend: "⌬",
   Frontend: "◈",
   Cloud: "☁",
